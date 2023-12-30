@@ -21,8 +21,6 @@ knapsack_items = {
     'O': {'amount': 9, 'value': 3750, 'weight': 1.6},
     'T': {'amount': 10, 'value': 4000, 'weight': 4.06}
 }
-
-
 weight_limit = 50
 def fitness_fun(state):
     total_weight = 0
