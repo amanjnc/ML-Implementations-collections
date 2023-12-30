@@ -9,7 +9,6 @@ def slope(x1,y1,x2,y2):
 
 # for the first element x1=8,y1=0
 
-
 def draw_board(initialstate):
     board=[]
     #create it to be 8 by 8
