@@ -32,12 +32,6 @@ def fitnessfun(initialstate,conflict_score=0):
             if horizontal_conflict or diagonal_conflict:
                 conflict_score +=1
     return conflict_score
-
-
-
-
-
-#for which is it best move--index
 def single_move(state,index):#for just one#so 2 possible state
     upstate=state.copy()
     downstate=state.copy()
